@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/rukudemo/clientlibs"/>
+    <filter root="/apps/rukudemo/components"/>
+    <filter root="/apps/rukudemo/i18n"/>
+</workspaceFilter>

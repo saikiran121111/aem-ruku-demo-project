@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/rukudemo" mode="merge"/>
+    <filter root="/content/rukudemo" mode="merge"/>
+    <filter root="/content/dam/rukudemo" mode="merge">
+        <exclude pattern="/content/dam/rukudemo(/.*)?"/>
+        <include pattern="/content/dam/rukudemo/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/rukudemo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/rukudemo" mode="merge"/>
+</workspaceFilter>
